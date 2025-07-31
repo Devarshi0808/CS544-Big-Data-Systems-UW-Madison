@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service MatchCount {
+  // Defines the GetMatchCount RPC method
+  rpc GetMatchCount (GetMatchCountReq) returns (GetMatchCountResp);
+}
+
+// Request message for GetMatchCount RPC
+message GetMatchCountReq {
+  string country = 1;       // The country to filter matches by
+  string winning_team = 2;   // The winning team to filter matches by
+}
+
+// Response message for GetMatchCount RPC
+message GetMatchCountResp {
+  int32 num_matches = 1;     // Number of matches that match the criteria
+}
