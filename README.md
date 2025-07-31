@@ -17,8 +17,8 @@ This repository contains all 8 projects (P1-P8) from the CS 544 course, which co
 ### P2: Counting Wins with gRPC and an LRU Cache (5% of grade)
 **Description**: Build a distributed application using gRPC for communication between clients and servers. Implement hash-partitioned data access, LRU caching, and Docker Compose for multi-container deployment. Focus on distributed systems, gRPC, caching strategies, and container orchestration.
 
-### P3: [Project Title Not Available]
-**Description**: This project's README appears to be a template and doesn't contain specific project details.
+### P3: Large, Thread-Safe Tables (5% of grade)
+**Description**: Implement large, thread-safe tables for handling big data processing tasks. Build a system with efficient data storage and retrieval mechanisms with thread safety guarantees for concurrent access. Use gRPC for communication, Protocol Buffers for data serialization, and support multiple data formats including CSV and Parquet. Learn distributed data structures, thread safety, and efficient data processing techniques.
 
 ### P4: HDFS Replication (6% of grade)
 **Description**: Deploy and work with HDFS (Hadoop Distributed File System) cluster. Upload large files with different replication settings, use WebHDFS API, read files with PyArrow, and understand fault tolerance through data recovery when nodes fail. Learn HDFS architecture, replication strategies, and distributed file systems.
